@@ -5,7 +5,7 @@ def reverse_each_word(words)
     new_words = words.split(",")
     
     new_words.each do |word|
-      newest_words += #{word}.reverse
+      newest_words << #{word}.reverse 
     end
     new_words.join
 end 
