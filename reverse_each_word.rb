@@ -1,5 +1,9 @@
 def reverse_each_word(words)
-    new_words = []
+  
+    newest_words = []
+    
+    new_words = 
+    
     words.each do |word|
       new_words += words.reverse
     end
