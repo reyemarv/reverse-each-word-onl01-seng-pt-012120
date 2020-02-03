@@ -4,8 +4,8 @@ def reverse_each_word(words)
     
     new_words = words.split(",")
     
-    words.each do |word|
-      new_words += words.reverse
+    new_words.each do |word|
+      newest_words += new_words.reverse
     end
-    new_words
+    new_words.join
 end 
