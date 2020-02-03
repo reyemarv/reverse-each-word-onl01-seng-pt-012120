@@ -8,5 +8,4 @@ def reverse_each_word(strings)
     "#{string.reverse}"
   end 
     new_array += new_string 
-  end
 end 
